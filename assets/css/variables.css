@@ -2,12 +2,15 @@
     --header-height: 3rem;
 
     /*=========== Colors =============*/
-    --title-color: #0B0A0A;
-    --text-color: #403A3A;
-    --text-color-light:#707070;
+    --title-color: #3F72AF; /* azul aço */
+    --text-color: #112D4E;  /* azul escuro */
+    --text-color-light: #707070;
     --container-color: #FAFAFA;
-    --container-color-alt: #F0EFEF;
-    --body-color: #FCFCFC;
+    --container-color-alt: #ffffff;
+    --body-color: #F9F7F7;
+
+    /*=========== Accent / hover ============*/
+    --hover-color: #d1cbcb; /* podes mudar para algo com mais contraste se quiseres */
 
     /*==== Font and typography ====*/
     --body-font: 'Poppins', sans-serif;
@@ -17,24 +20,28 @@
     --normal-font-size: .938rem;
     --small-font-size: .875rem;
     --smaller-font-size: .812rem;
-    
+
     /*==== Font weight ====*/
     --font-medium: 500;
-    --font-semi-bold:600;
+    --font-semi-bold: 600;
 
-    /*==== Margenes ====*/
+    /*==== Margens ====*/
     --mb-1: .5rem;
     --mb-2: 1rem;
     --mb-3: 1.5rem;
 
-    /*========== z index ==========*/
+    /*==== Z-index ====*/
     --z-tooltip: 10;
     --z-fixed: 100;
+}
 
-    /*========== hover ==========*/
-    --hover-color: #d1cbcb;
-    
-    
-
-   
+/*=========== DARK THEME =============*/
+body.dark-theme {
+    --title-color: #F9F7F7;
+    --text-color: #DBE2EF;
+    --text-color-light: #c0bbbb;
+    --container-color: #1B262C;
+    --container-color-alt: #0F4C75;
+    --body-color: #121212; /* cor de fundo base dark */
+    --hover-color: #3F72AF; /* azul claro no hover no modo escuro */
 }
