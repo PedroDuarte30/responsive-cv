@@ -260,10 +260,12 @@ section {
 }
 
 .social_link {
-    display: inline-flex;
+    display: flex;
     align-items: center;
-    font-size: var(--smaller-font-size);
+    font-size: var(--normal-font-size);
     color: var(--text-color);
+    gap: 3px;
+    
 }
 
 .social_link:hover {
@@ -274,6 +276,11 @@ section {
     font-size: 1.3rem;
     margin-right: .25rem;
 }
+
+.social_link i {
+    font-size: 20px;
+}
+
 
 /*========== PROFILE ==========*/
 .profile_description {
