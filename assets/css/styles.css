@@ -422,7 +422,7 @@ section {
 /*========== INTERESTS ==========*/
 .interests__container {
     grid-template-columns: repeat(3, 1fr);
-    margin-top: var(--mb-2);
+    margin-top: var(--mb-3);
 }
 
 .interests__content {
