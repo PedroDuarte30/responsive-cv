@@ -1,4 +1,4 @@
-/*==================== SHOW MENU ====================*/
+/*SHOW MENU*/
 const showMenu = (toggleClass, navClass) => {
     const toggle = document.querySelector(`.${toggleClass}`),
           nav = document.querySelector(`.${navClass}`);
@@ -12,7 +12,7 @@ const showMenu = (toggleClass, navClass) => {
 showMenu('nav_toggle', 'nav_menu');
 
 
-/*==================== REMOVE MENU MOBILE ====================*/
+/*REMOVE MENU MOBILE*/
 const navLink = document.querySelectorAll('.navLink');
 
 function linkAction() {
@@ -23,7 +23,7 @@ function linkAction() {
 navLink.forEach(n => n.addEventListener('click', linkAction));
 
 
-/*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
+/*SCROLL SECTIONS ACTIVE LINK*/
 const sections = document.querySelectorAll('section');
 
 function scrollActive(){
@@ -45,7 +45,7 @@ function scrollActive(){
 window.addEventListener('scroll', scrollActive);
 
 
-/*==================== SHOW SCROLL TOP ====================*/ 
+/*SHOW SCROLL TOP*/ 
 function scrollTop(){
     const scrollTop = document.getElementById('scroll-top');
     // When the scroll is higher than 560 viewport height, add the show-scroll class to the a tag with the scroll-top class
@@ -53,7 +53,7 @@ function scrollTop(){
 }
 window.addEventListener('scroll', scrollTop)
 
-/*==================== DARK LIGHT THEME ====================*/ 
+/*DARK LIGHT THEME*/ 
 const themeButton = document.getElementById('theme-button')
 const darkTheme = 'dark-theme'
 const iconTheme = 'bx-sun'
@@ -82,27 +82,3 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
-
-/*==================== REDUCE THE SIZE AND PRINT ON AN A4 SHEET ====================*/ 
-
-
-/*==================== REMOVE THE SIZE WHEN THE CV IS DOWNLOADED ====================*/ 
-
-
-/*==================== GENERATE PDF ====================*/ 
-// PDF generated area
-
-
-// Html2pdf options
-
-
-// Function to call areaCv and Html2Pdf options 
-
-
-// When the button is clicked, it executes the three functions
-
-    // 1. The class .scale-cv is added to the body, where it reduces the size of the elements
-
-
-    // 2. The PDF is generated
-

@@ -1,11 +1,11 @@
-/*===== GOOGLE FONTS =====*/
+/*GOOGLE FONTS*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
 
-/*===== VARIABLES =====*/
+/*VARIABLES*/
 @import "./variables.css";
 
-/*========== BASE ==========*/
+/*BASE*/
 *,::before,::after {
     box-sizing: border-box;
 }
@@ -14,10 +14,7 @@ html{
     scroll-behavior: smooth;
 }
 
-/*========== Variables Dark theme ==========*/
-
-
-/*========== Button Dark/Light ==========*/
+/*Button Dark/Light*/
 .change-theme {
     position: absolute;
     right: 0;
@@ -32,13 +29,7 @@ html{
     color: var(--title-color);
 }
 
-/*========== Font size variables to scale cv ==========*/
-
-
-/*========== Generate PDF button ==========*/
-
-
-/*========== Classes modified to reduce size and print on A4 sheet ==========*/
+/*Classes modified to reduce size and print on A4 sheet */
 body  {
     margin: 0 0 var(--header-height) 0;
     padding: 0;
@@ -71,7 +62,7 @@ img {
     height: auto;
 }
 
-/*========== CLASS CSS ==========*/
+/*CLASS CSS*/
 section {
     padding: 1.5rem 0;
 }
@@ -85,7 +76,7 @@ section {
     text-align: center;
     margin-bottom: var(--mb-3);
 }
-/*========== LAYOUT ==========*/
+/*LAYOUT*/
 .bd-container {
     max-width: 968px;
     width: calc(100% - 3rem);
@@ -111,7 +102,7 @@ section {
 
 
 
-/*========== NAV ==========*/
+/*NAV*/
 .nav {
     height: var(--header-height);
     display: flex;
@@ -189,7 +180,7 @@ section {
     color: var(--title-color);
 }
 
-/*========== HOME ==========*/
+/*HOME*/
 .home {
     position: relative;
 }
@@ -247,7 +238,7 @@ section {
     background-color: var(--hover-color);
 }
 
-/*========== SOCIAL ==========*/
+/*SOCIAL*/
 .section_title {
     text-align: center;
     letter-spacing: 3px;
@@ -282,7 +273,7 @@ section {
 }
 
 
-/*========== PROFILE ==========*/
+/*PROFILE*/
 .profile_description {
     text-align: center;
     margin-top: 10px;
@@ -290,7 +281,7 @@ section {
 
 
 
-/*========== EDUCATION AND EXPERIENCE ==========*/
+/*EDUCATION AND EXPERIENCE*/
 .education_content,
 .experience_content {
     display: flex;
@@ -340,7 +331,7 @@ section {
     font-size: var(--small-font-size);
     color: var(--title-color);
 }
-/*========== SKILLS AND LANGUAGES ==========*/
+/*SKILLS AND LANGUAGES*/
 .skills_content,
 .languages_content {
     grid-template-columns: repeat(2, 1fr);
@@ -369,7 +360,7 @@ section {
     margin-right: .75rem;
 }
 
-/*========== CERTIFICATES ==========*/
+/*CERTIFICATES*/
 .certificate_content {
     display: flex;
     margin-top: 10px;
@@ -419,7 +410,7 @@ section {
     color: var(--text-color-light);
 }
 
-/*========== INTERESTS ==========*/
+/*INTERESTS*/
 .interests__container {
     grid-template-columns: repeat(3, 1fr);
     margin-top: var(--mb-3);
@@ -464,7 +455,7 @@ section {
     bottom: 5rem;
 }
 
-/*========== MEDIA QUERIES ==========*/
+/*MEDIA QUERIES*/
 /* For small devices, menu two columns */
 @media screen and (max-width: 320px) {
     .navList {

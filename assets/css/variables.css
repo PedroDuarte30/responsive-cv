@@ -1,7 +1,7 @@
 :root {
     --header-height: 3rem;
 
-    /*=========== Colors =============*/
+    /*Colors*/
     --title-color: #3F72AF; /* azul aço */
     --text-color: #112D4E;  /* azul escuro */
     --text-color-light: #707070;
@@ -9,10 +9,10 @@
     --container-color-alt: #ffffff;
     --body-color: #F9F7F7;
 
-    /*=========== Accent / hover ============*/
+    /*Accent / hover*/
     --hover-color: #d1cbcb; 
 
-    /*==== Font and typography ====*/
+    /*Font and typography*/
     --body-font: 'Poppins', sans-serif;
     --h1-font-size: 1.5rem;
     --h2-font-size: 1.25rem;
@@ -21,21 +21,21 @@
     --small-font-size: .875rem;
     --smaller-font-size: .812rem;
 
-    /*==== Font weight ====*/
+    /*Font weight*/
     --font-medium: 500;
     --font-semi-bold: 600;
 
-    /*==== Margens ====*/
+    /*Margens*/
     --mb-1: .5rem;
     --mb-2: 1rem;
     --mb-3: 1.5rem;
 
-    /*==== Z-index ====*/
+    /*Z-index*/
     --z-tooltip: 10;
     --z-fixed: 100;
 }
 
-/*=========== DARK THEME =============*/
+/*DARK THEME*/
 body.dark-theme {
     --title-color: #F9F7F7;
     --text-color: #DBE2EF;
